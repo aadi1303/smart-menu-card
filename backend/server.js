@@ -38,7 +38,6 @@ app.get('/api/health', (req, res) => {
 app.use(errorHandler);
 
 // Start server
-const PORT = config.port;
-app.listen(PORT, () => {
-  console.log(`Server running in ${config.env} mode on port ${PORT}`);
-});
+const serverless = require('serverless-http');
+
+module.exports = serverless(app);
