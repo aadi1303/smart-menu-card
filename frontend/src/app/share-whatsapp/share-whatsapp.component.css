@@ -1,0 +1,45 @@
+.container {
+  max-width: 520px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #deecdd;
+  min-height: 50vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.copy-btn {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #0f6f5c;
+  background: white;
+  color: #0f6f5c;
+  border-radius: 8px;
+}
+
+.whatsapp-btn {
+  flex: 1;
+  padding: 10px;
+  background: #25D366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
